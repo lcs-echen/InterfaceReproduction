@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA6D72A02927D49100CF9061 /* SymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6D729F2927D49100CF9061 /* SymbolView.swift */; };
 		CAA5C3E1292673EA00DC9D1E /* InterfaceReproductionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA5C3E0292673EA00DC9D1E /* InterfaceReproductionApp.swift */; };
 		CAA5C3E3292673EA00DC9D1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA5C3E2292673EA00DC9D1E /* ContentView.swift */; };
 		CAA5C3E5292673EC00DC9D1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA5C3E4292673EC00DC9D1E /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA6D729F2927D49100CF9061 /* SymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolView.swift; sourceTree = "<group>"; };
 		CAA5C3DD292673EA00DC9D1E /* InterfaceReproduction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterfaceReproduction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA5C3E0292673EA00DC9D1E /* InterfaceReproductionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceReproductionApp.swift; sourceTree = "<group>"; };
 		CAA5C3E2292673EA00DC9D1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				CAA5C3E0292673EA00DC9D1E /* InterfaceReproductionApp.swift */,
 				CAA5C3E2292673EA00DC9D1E /* ContentView.swift */,
 				CAA5C3EE2926803400DC9D1E /* ListItem.swift */,
+				CA6D729F2927D49100CF9061 /* SymbolView.swift */,
 				CAA5C3F0292700CC00DC9D1E /* RoundedRectangleButton.swift */,
 				CAA5C3E4292673EC00DC9D1E /* Assets.xcassets */,
 				CAA5C3E6292673EC00DC9D1E /* Preview Content */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAA5C3EF2926803400DC9D1E /* ListItem.swift in Sources */,
+				CA6D72A02927D49100CF9061 /* SymbolView.swift in Sources */,
 				CAA5C3E3292673EA00DC9D1E /* ContentView.swift in Sources */,
 				CAA5C3E1292673EA00DC9D1E /* InterfaceReproductionApp.swift in Sources */,
 				CAA5C3F1292700CC00DC9D1E /* RoundedRectangleButton.swift in Sources */,

@@ -13,25 +13,46 @@ struct ContentView: View {
             Color.black
                 .ignoresSafeArea()
             VStack (alignment: .leading) {
-                HStack {
-                    Text("Select")
-                    Spacer()
+                VStack (alignment: .leading){
+                    HStack {
+                        Text("Select")
+                            .foregroundColor(Color("YellowGreen"))
+                            .font(.title2)
+                        Spacer()
+                    }
+                    
+                        Text("Workouts")
+                            .fontWeight(.bold)
+                            .font(.largeTitle)
+                            .padding(.top, 2)
+
+                    
+
                 }
-                .border(Color.red)
-                Text("Workouts")
+                .padding(10)
                 
-                Spacer()
+                Spacer(minLength: 55)
+                
+                Text("November 2022")
+                    .fontWeight(.bold)
+                    .font(.title2)
+                    .padding(.leading, 10)
+                    .padding(.bottom, 0)
+                
                 
                 List {
-                    ListItem(name: "Outdoor Walk", km: "1.8", imageName: "figure.walk.circle.fill", date: "Yesterday")
-                    ListItem(name: "Outdoor Walk", km: "1.8", imageName: "figure.walk.circle.fill", date: "Yesterday")
+                    ListItem(name: "Outdoor Walk", km: "1.18", imageName: "figure.walk.circle.fill", date: "Yesterday")
+                    ListItem(name: "Outdoor Walk", km: "1.29", imageName: "figure.walk.circle.fill", date: "Yesterday")
+                    ListItem(name: "Outdoor Run", km: "14.47", imageName: "figure.run.circle.fill", date: "2022-11-13")
+                    ListItem(name: "Outdoor Walk", km: "1.74", imageName: "figure.walk.circle.fill", date: "2022-11-13")
+                    ListItem(name: "Outdoor Run", km: "8.60", imageName: "figure.run.circle.fill", date: "2022-11-12")
+                    ListItem(name: "Outdoor Walk", km: "1.80", imageName: "figure.walk.circle.fill", date: "2022-11-11")
                     
                 }
                 .listStyle(.plain)
-
             }
         }
-
+        
         
     }
 }
@@ -65,7 +86,7 @@ struct ContentView_Previews: PreviewProvider {
                 }
                 .tag(3)
         }
-        .accentColor(.green)
+        .accentColor(Color("YellowGreen"))
         .preferredColorScheme(.dark)
     }
 }

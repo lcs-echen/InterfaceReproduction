@@ -15,11 +15,8 @@ struct ListItem: View {
     var body: some View {
         HStack {
             HStack(spacing: 0){
-                Image(systemName: imageName)
-                    .resizable()
-                    .foregroundColor(Color("YellowGreen"))
-                    .frame(width: 60, height: 60, alignment: .center)
-                    .padding(.leading)
+                SymbolView(imageName: imageName)
+                    .padding(5)
                 VStack(alignment: .leading) {
                     Text(name)
                         .foregroundColor(.white)
@@ -29,7 +26,7 @@ struct ListItem: View {
                             .font(.largeTitle)
                             .foregroundColor(Color("YellowGreen"))
                         Text("KM")
-                            .font(.title2)
+                            .font(.title)
                             .foregroundColor(Color("YellowGreen"))
                         Spacer()
                         Text(date)
@@ -38,10 +35,11 @@ struct ListItem: View {
                     }
                     
                 }
-                .padding(7)
+                .padding([.leading,.trailing], 8)
                 
             }
-            .frame(width: 285, height: 95)
+            .padding([.leading,.trailing], 5)
+            .frame(width: 310, height: 93)
             .background(RoundedRectangle(cornerRadius: 15)
                 .foregroundColor(Color("DarkGray")))
             
@@ -50,6 +48,7 @@ struct ListItem: View {
             }
             
         }
+        .listRowInsets(EdgeInsets(top: 0, leading: 7, bottom: 8, trailing: 0))
     }
 }
 
