@@ -20,26 +20,18 @@ struct ContentView: View {
                             .font(.title2)
                         Spacer()
                     }
-                    
                         Text("Workouts")
                             .fontWeight(.bold)
                             .font(.largeTitle)
                             .padding(.top, 2)
-
-                    
-
                 }
                 .padding(10)
-                
-                Spacer(minLength: 55)
-                
+                Spacer(minLength: 45)
                 Text("November 2022")
                     .fontWeight(.bold)
                     .font(.title2)
                     .padding(.leading, 10)
                     .padding(.bottom, 0)
-                
-                
                 List {
                     ListItem(name: "Outdoor Walk", km: "1.18", imageName: "figure.walk.circle.fill", date: "Yesterday")
                     ListItem(name: "Outdoor Walk", km: "1.29", imageName: "figure.walk.circle.fill", date: "Yesterday")
@@ -47,13 +39,11 @@ struct ContentView: View {
                     ListItem(name: "Outdoor Walk", km: "1.74", imageName: "figure.walk.circle.fill", date: "2022-11-13")
                     ListItem(name: "Outdoor Run", km: "8.60", imageName: "figure.run.circle.fill", date: "2022-11-12")
                     ListItem(name: "Outdoor Walk", km: "1.80", imageName: "figure.walk.circle.fill", date: "2022-11-11")
-                    
+                    ListItem(name: "Outdoor Walk", km: "1.23", imageName: "figure.walk.circle.fill", date: "2022-11-10")
                 }
                 .listStyle(.plain)
             }
         }
-        
-        
     }
 }
 
