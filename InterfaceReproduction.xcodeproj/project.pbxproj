@@ -11,6 +11,8 @@
 		CAA5C3E3292673EA00DC9D1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA5C3E2292673EA00DC9D1E /* ContentView.swift */; };
 		CAA5C3E5292673EC00DC9D1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA5C3E4292673EC00DC9D1E /* Assets.xcassets */; };
 		CAA5C3E8292673EC00DC9D1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA5C3E7292673EC00DC9D1E /* Preview Assets.xcassets */; };
+		CAA5C3EF2926803400DC9D1E /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA5C3EE2926803400DC9D1E /* ListItem.swift */; };
+		CAA5C3F1292700CC00DC9D1E /* RoundedRectangleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA5C3F0292700CC00DC9D1E /* RoundedRectangleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		CAA5C3E2292673EA00DC9D1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CAA5C3E4292673EC00DC9D1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAA5C3E7292673EC00DC9D1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAA5C3EE2926803400DC9D1E /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		CAA5C3F0292700CC00DC9D1E /* RoundedRectangleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				CAA5C3E0292673EA00DC9D1E /* InterfaceReproductionApp.swift */,
 				CAA5C3E2292673EA00DC9D1E /* ContentView.swift */,
+				CAA5C3EE2926803400DC9D1E /* ListItem.swift */,
+				CAA5C3F0292700CC00DC9D1E /* RoundedRectangleButton.swift */,
 				CAA5C3E4292673EC00DC9D1E /* Assets.xcassets */,
 				CAA5C3E6292673EC00DC9D1E /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAA5C3EF2926803400DC9D1E /* ListItem.swift in Sources */,
 				CAA5C3E3292673EA00DC9D1E /* ContentView.swift in Sources */,
 				CAA5C3E1292673EA00DC9D1E /* InterfaceReproductionApp.swift in Sources */,
+				CAA5C3F1292700CC00DC9D1E /* RoundedRectangleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

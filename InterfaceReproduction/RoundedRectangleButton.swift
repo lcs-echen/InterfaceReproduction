@@ -10,21 +10,20 @@ import SwiftUI
 struct RoundedRectangleButton: View {
         let buttonColour: String
         let label: String
-        let labelColor: Color
         var body: some View {
             ZStack (alignment: .center){
-                RoundedRectangle(cornerRadius: 10)
+                RoundedRectangle(cornerRadius: 15)
                     .foregroundColor(Color(buttonColour))
-                    .frame(width: 60, height: 60)
-                RoundedRectangle(cornerRadius: 10)
+                    .frame(width: 88, height: 95)
+                RoundedRectangle(cornerRadius: 13)
                     .foregroundColor(.black)
-                    .frame(width: 55, height: 55)
+                    .frame(width: 84, height: 90)
                 RoundedRectangle(cornerRadius: 9)
                     .foregroundColor(Color(buttonColour))
-                    .frame(width: 50, height: 50)
+                    .frame(width: 80, height: 86)
                 Text(label)
-                    .foregroundColor(labelColor)
-                    .font(.title3)
+                    .foregroundColor(Color("LightestGray"))
+                    .font(.largeTitle)
                 
                 
             }
@@ -33,6 +32,6 @@ struct RoundedRectangleButton: View {
 
 struct RoundedRectangle_Previews: PreviewProvider {
     static var previews: some View {
-        RoundedRectangleButton(buttonColour: "YellowGreen", label: "?", labelColor: .white)
+        RoundedRectangleButton(buttonColour: "YellowGreen", label: "?")
     }
 }

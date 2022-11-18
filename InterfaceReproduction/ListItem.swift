@@ -41,13 +41,12 @@ struct ListItem: View {
                 .padding(7)
                 
             }
-            .frame(width: 280)
-            
+            .frame(width: 285, height: 95)
+            .background(RoundedRectangle(cornerRadius: 15)
+                .foregroundColor(Color("DarkGray")))
             
             VStack {
-                RoundedRectangleButton(buttonColour: "Gray", label: "?", labelColor: .white)
-
-                
+                RoundedRectangleButton(buttonColour: "LighterGray", label: "?")
             }
             
         }

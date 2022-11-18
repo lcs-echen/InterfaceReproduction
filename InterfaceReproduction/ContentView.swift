@@ -23,13 +23,15 @@ struct ContentView: View {
                 Spacer()
                 
                 List {
-
-                    Text("2")
+                    ListItem(name: "Outdoor Walk", km: "1.8", imageName: "figure.walk.circle.fill", date: "Yesterday")
+                    ListItem(name: "Outdoor Walk", km: "1.8", imageName: "figure.walk.circle.fill", date: "Yesterday")
+                    
                 }
+                .listStyle(.plain)
 
             }
         }
-        .padding()
+
         
     }
 }
